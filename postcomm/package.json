@@ -1,0 +1,15 @@
+{
+  "name": "postcomm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "asp",
+    "build": "asb"
+  },
+  "author": "",
+  "license": "ISC",
+  "optionalDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
