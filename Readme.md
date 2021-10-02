@@ -51,19 +51,31 @@ Enseguida utiliza el siguiente comando para que se ejecuten todos los comandos d
 
 Los comandos que requerirás para poder desplegarla serán los siguientes:
 
-> npm init //crea un package.json 
-> yarn install //instalar dependencia yarn
-> yarn add -O near-sdk-as //coleccion de paquetes de near para desarrollo
-> mkdir assembly    //crear un directorio de lenguaje assemblyscript
-> touch asconfig.json   //se agrega asconfig al cliente
-> yarn asb // create a release build and place it
-> yarn asb --wat //herramienta de yarn asb
-> yarn asp --init //creacion de pruebas de asp
-> yarn install --global near-cli //intalar el cliente de near de forma global
-> yarn global ad near-cli //agregar un cliente de near al proyecto
-> yarn asp --verbose // test de pruebas
-> yarn --frozen-lockfile //
-> near login //log de una cuenta near
+> * npm init //crea un package.json 
+>
+> * yarn install //instalar dependencia yarn
+>
+> - yarn add -O near-sdk-as //coleccion de paquetes de near para desarrollo
+>
+> - mkdir assembly    //crear un directorio de lenguaje assemblyscript
+>
+> - touch asconfig.json   //se agrega asconfig al cliente
+>
+> * yarn asb // create a release build and place it
+>
+> * yarn asb --wat //herramienta de yarn asb
+>
+> * yarn asp --init //creacion de pruebas de asp
+>
+> * yarn install --global near-cli //intalar el cliente de near de forma global
+>
+> * yarn global ad near-cli //agregar un cliente de near al proyecto
+>
+> * yarn asp --verbose // test de pruebas
+>
+> * yarn --frozen-lockfile 
+>
+> * near login //log de una cuenta near
 
 
 
